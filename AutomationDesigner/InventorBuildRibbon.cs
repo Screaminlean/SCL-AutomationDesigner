@@ -83,6 +83,7 @@ namespace AutomationDesigner
             if (!valid)
             {
                 MessageBox.Show("Please open an assembly document");
+                return;
             }
 
             var adoc = activeDocument.GetAssemblyDocument();
@@ -153,6 +154,7 @@ namespace AutomationDesigner
             if (!valid)
             {
                 MessageBox.Show("Please open an assembly document");
+                return;
             }
 
             var adoc = activeDocument.GetAssemblyDocument();

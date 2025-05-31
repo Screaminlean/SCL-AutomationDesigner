@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
-using Office = Microsoft.Office.Core;
-using Microsoft.Office.Tools.Excel;
 using AutomationDesigner.Build.ApplicationFunctions;
-using Microsoft.Office.Interop.Excel;
 using SolidworksWrapper;
 using SolidworksWrapper.Documents;
 using AutomationDesigner.Constants;
 using AutomationDesigner.Enums;
 using AutomationDesigner.Helpers;
-using System.Collections.Specialized;
 using SolidworksWrapper.Constants;
 
 namespace AutomationDesigner.Build

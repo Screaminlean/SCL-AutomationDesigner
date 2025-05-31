@@ -7,16 +7,9 @@ using InventorWrapper.Documents;
 using InventorWrapper.General;
 using InventorWrapper.Helpers;
 using InventorWrapper.IProps;
-using InventorWrapper.Parameters;
-using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Diagnostics.Contracts;
 using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AutomationDesigner.Build.ApplicationFunctions
 {

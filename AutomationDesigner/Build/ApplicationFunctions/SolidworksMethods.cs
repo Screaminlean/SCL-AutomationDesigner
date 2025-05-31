@@ -6,10 +6,7 @@ using SolidworksWrapper.Documents;
 using SolidworksWrapper.Enums;
 using SolidworksWrapper.General;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AutomationDesigner.Build.ApplicationFunctions
 {
