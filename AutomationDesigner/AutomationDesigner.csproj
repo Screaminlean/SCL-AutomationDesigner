@@ -123,6 +123,10 @@
   -->
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="Autodesk.Inventor.Interop">
+      <HintPath>..\References\Autodesk.Inventor.Interop.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
       <HintPath>..\packages\ControlzEx.4.4.0\lib\net462\ControlzEx.dll</HintPath>
     </Reference>
@@ -408,7 +412,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="References\Autodesk.Inventor.Interop.dll" />
+    <Folder Include="References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -421,7 +425,7 @@
     <ManifestKeyFile>AutomationDesigner_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>EE45B05A7E61B29049A69A25E5A12411F72E6AB7</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>D3BBA24D3266C7A33A6D9804D0B3260334CAF1DA</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
