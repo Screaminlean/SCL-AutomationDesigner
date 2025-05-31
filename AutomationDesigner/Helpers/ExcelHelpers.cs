@@ -2,12 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Management.Instrumentation;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace AutomationDesigner.Helpers
@@ -115,6 +113,9 @@ namespace AutomationDesigner.Helpers
                 catch (Exception ex)
                 {
                     worksheet.DeleteNamedRange(name);
+#if DEBUG
+                    Trace.WriteLine($"Error creating named range '{name}': {ex.Message}");
+#endif
                 }
             }
             else
@@ -138,6 +139,9 @@ namespace AutomationDesigner.Helpers
                 catch(Exception ex)
                 {
                     worksheet.DeleteNamedRange(name);
+#if DEBUG
+                    Trace.WriteLine($"Error clearing named range '{name}': {ex.Message}");
+#endif                    
                 }
             }
         }

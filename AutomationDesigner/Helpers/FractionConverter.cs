@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,6 +127,10 @@ namespace AutomationDesigner.Helpers
                 catch (Exception e)
                 {
                     dReturn = 0;
+#if DEBUG
+                    // Log the exception if needed
+                    Trace.WriteLine($"Error converting fraction: {e.Message}");
+#endif
                 }
             }
             else
@@ -139,6 +144,10 @@ namespace AutomationDesigner.Helpers
                 {
                     // bad input so return 0.
                     dReturn = 0;
+#if DEBUG
+                    // Log the exception if needed
+                    Trace.WriteLine($"Error converting whole number: {e.Message}");
+#endif
                 }
             }
 
