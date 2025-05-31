@@ -25,6 +25,7 @@ To install go to the releases
 - Removed signing and updated the reference to Autodesk.Inventor.Interop.dll
 - Updated Autodesk.Inventor.Interop.dll to v25.0.0.0
 - Built binary
+- Added VstoAddinInstaller to create setup without signing.
 - Created github release.
 
 ## Original v1.0.0.5
