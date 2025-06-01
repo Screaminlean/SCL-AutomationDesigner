@@ -13,6 +13,7 @@ I forked from the [original](https://github.com/jraleighdev/AutomationDesigner) 
 
 
 # Versions
+Releases published [here](https://github.com/Screaminlean/SCL-AutomationDesigner/releases).
 ## v1.0.0.6
 To install go to the releases
 * Updated packages
